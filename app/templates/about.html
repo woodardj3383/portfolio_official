@@ -1,0 +1,71 @@
+{% extends 'layout.html' %}
+{% set active_page= 'about' -%}
+{% block content %}
+<div class="row">
+  <div class=col-12></div>
+  <div class="column">
+    <img src="../static/images/guitar.jpeg" alt="Snow" style="width:100%" style="height: 75%;">
+  </div>
+  <div class="column">
+    <img src="../static/images/redleaves.jpeg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="../static/images/portlandharbor.jpeg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+      <H3>About Page</H3>
+      <div class="container">
+        <!-- {% if logged_in_user %}
+        <p>Hello, {{ logged_in_user }}</p>
+        {% else %}
+        <p>Welcome, New User!</p>
+        {% endif %}
+        <p>Would you believe it...{% if info_to_display %} {{info_to_display}} {% else %} I dont' have anything to display.</p>
+       
+
+        {% endif %} -->
+        <div class="main-content">
+          
+          <!-- <h3>About Me:</h3> -->
+          
+          <div>
+            <p class="about" style="text-align: left;">
+              I moved to Chicago in 2017 and within a year purchased a classic Chicago three-flat,
+              brick building in McKinley Park on
+              the southwest side, fulfilling the role of both homeowner and landlord. Originally
+              from the Alabama Gulf Coast, I
+              pursued an MA in American Studies at the University of Alabama and a Phd at Saint
+              Louis University. While in academia, I
+              taught and assisted with numerous undergraduate courses. My interest in American
+              Urban History was a motivating
+              factor for moving to Chicago.
+              </br>
+              </br>
+        
+              In addition to my studies, I also have about 8 years experience as a bartender. Such
+              a profession is filled with
+              high-times and fond memories, but I was already transitioning out of that profession
+              when the pandemic struck in March
+              of 2020. This granted me the opportunity to pursue a career in coding. I spent three months of independent study learning whatever I could through online tutorials and message boards. I eventually enrolled in an online bootcamp named Coding Temple. There I received formal training in various industry standards with a concentration in Python and data analysis.  
+              
+              <!-- In my leisure time, I like discovering new areas of the city on my bike,
+              seeing live rock shows, and indulging
+              in Chicago's many bars and eateries (pandemic permitting). -->
+              </br>
+              </br>
+              Whether it be teaching, bartending, or any of my other odd jobs, my professional
+              goals have always hinged on my skills
+              as a people-person. While this is all well and good, I am looking for a new challenge
+              and a new direction in my
+              professional endeavors. I am excited to enter the world of programming because of
+              its basis in logic and hard science.
+              This portfolio will showcase what I have learned throughout this venture.
+               <!-- and will
+              hopefully be a testament to all of
+              the work I have put into this venture. </p> -->
+          </div>
+
+      </div>
+    {% endblock %}
+      
+    
